@@ -28,7 +28,7 @@ on:
 
 jobs:
   test-install:
-    runs-on: depot-ubuntu-24.04-arm-4
+    runs-on: depot-ubuntu-24.04-arm-8
     steps:
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
