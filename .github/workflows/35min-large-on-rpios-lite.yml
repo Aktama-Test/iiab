@@ -27,7 +27,7 @@ on:
 
 jobs:
   test-install:
-    runs-on: depot-ubuntu-24.04-arm
+    runs-on: depot-ubuntu-24.04-arm-4
     steps:
       - uses: actions/checkout@v6
         with:
